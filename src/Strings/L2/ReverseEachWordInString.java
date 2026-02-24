@@ -5,6 +5,7 @@ public class ReverseEachWordInString {
         String str = "Hello World";
         String rev = "";
         String[] words = str.split(" ");
+        System.out.println(words.length);
         for(int i=0;i<words.length;i++){
            StringBuilder builder = new StringBuilder(words[i]);
            rev += builder.reverse()+" ";

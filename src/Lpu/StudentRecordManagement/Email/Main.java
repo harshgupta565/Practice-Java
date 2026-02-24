@@ -1,4 +1,4 @@
-package Practice.Email;
+package Lpu.StudentRecordManagement.Email;
 import java.util.regex.*;
 import java.util.*;
 

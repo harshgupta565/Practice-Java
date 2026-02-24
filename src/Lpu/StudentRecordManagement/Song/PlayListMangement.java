@@ -1,6 +1,5 @@
-package Practice.Song;
+package Lpu.StudentRecordManagement.Song;
 
-import java.time.Duration;
 import java.util.LinkedList;
 import java.util.Scanner;
 

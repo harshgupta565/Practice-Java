@@ -1,4 +1,4 @@
-package Practice.Employee;
+package Lpu.StudentRecordManagement.Employee;
 
 import java.util.LinkedList;
 
