@@ -16,8 +16,13 @@ class details{
         System.out.println("item added" + list);
     }
     void removeitem(List<details> list , String item) {
- list.remove(new details(item, price, rating));
-        System.out.println("item removed" + list);
+        for(details e : list){
+            if(e.item.equals(item)) {
+                list.remove(new details(item, price, rating));
+                System.out.println("item removed" + list);
+            }
+        }
+
     }
     public String toString() {
         return item + " : " + price + " : " + rating;
